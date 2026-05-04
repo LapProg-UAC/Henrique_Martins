@@ -1,0 +1,719 @@
+[
+    {
+        "utente": "1283 - Manuel Monteiro",
+        "medicamentos": [
+            "Piridoxina",
+            "Antibióticos (Largo Espectro)",
+            "Contraceptivos Orais",
+            "Isoniazida"
+        ],
+        "interacoes": [
+            {
+                "par": "Piridoxina + Antibióticos (Largo Espectro)",
+                "valor": 4,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Piridoxina + Contraceptivos Orais",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Piridoxina + Isoniazida",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Antibióticos (Largo Espectro) + Contraceptivos Orais",
+                "valor": 0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Antibióticos (Largo Espectro) + Isoniazida",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Contraceptivos Orais + Isoniazida",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            }
+        ]
+    },
+    {
+        "utente": "5032 - Inês Sousa",
+        "medicamentos": [
+            "Rifampicina",
+            "Clonidina"
+        ],
+        "interacoes": [
+            {
+                "par": "Rifampicina + Clonidina",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            }
+        ]
+    },
+    {
+        "utente": "6544 - Diogo Pinto",
+        "medicamentos": [
+            "Bloqueantes Neuromusculares",
+            "Barbitúricos",
+            "Ácido Acetilsalicílico"
+        ],
+        "interacoes": [
+            {
+                "par": "Bloqueantes Neuromusculares + Barbitúricos",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Bloqueantes Neuromusculares + Ácido Acetilsalicílico",
+                "valor": 4,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Barbitúricos + Ácido Acetilsalicílico",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            }
+        ]
+    },
+    {
+        "utente": "5772 - Tiago Almeida",
+        "medicamentos": [
+            "Clonidina",
+            "Anti-histamínicos",
+            "Dicloralfenazona",
+            "Sulfonilinas (Clorpropamida)"
+        ],
+        "interacoes": [
+            {
+                "par": "Clonidina + Anti-histamínicos",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Clonidina + Dicloralfenazona",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Clonidina + Sulfonilinas (Clorpropamida)",
+                "valor": 0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Anti-histamínicos + Dicloralfenazona",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Anti-histamínicos + Sulfonilinas (Clorpropamida)",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Dicloralfenazona + Sulfonilinas (Clorpropamida)",
+                "valor": 0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "5176 - António Almeida",
+        "medicamentos": [
+            "Tiroxina",
+            "Sulfonilinas (Clorpropamida)"
+        ],
+        "interacoes": [
+            {
+                "par": "Tiroxina + Sulfonilinas (Clorpropamida)",
+                "valor": 0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "1455 - Maria Soares",
+        "medicamentos": [
+            "Antiácidos",
+            "Simpaticomiméticos (A. Directa)",
+            "Sulfonilinas (Clorpropamida)",
+            "Barbitúricos"
+        ],
+        "interacoes": [
+            {
+                "par": "Antiácidos + Simpaticomiméticos (A. Directa)",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Antiácidos + Sulfonilinas (Clorpropamida)",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Antiácidos + Barbitúricos",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Simpaticomiméticos (A. Directa) + Sulfonilinas (Clorpropamida)",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Simpaticomiméticos (A. Directa) + Barbitúricos",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Sulfonilinas (Clorpropamida) + Barbitúricos",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            }
+        ]
+    },
+    {
+        "utente": "1383 - Bernardo Silva",
+        "medicamentos": [
+            "Cloranfenicol",
+            "Sulfonamidas",
+            "Furosemida"
+        ],
+        "interacoes": [
+            {
+                "par": "Cloranfenicol + Sulfonamidas",
+                "valor": 4,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Cloranfenicol + Furosemida",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Sulfonamidas + Furosemida",
+                "valor": 4,
+                "descricao": "Interação grave"
+            }
+        ]
+    },
+    {
+        "utente": "6548 - Margarida Costa",
+        "medicamentos": [
+            "Fenotiazinas (Clorpromazina)",
+            "Barbitúricos",
+            "Carbamazepina",
+            "Tiramina (Alimentos, Etc.)"
+        ],
+        "interacoes": [
+            {
+                "par": "Fenotiazinas (Clorpromazina) + Barbitúricos",
+                "valor": 4,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Fenotiazinas (Clorpromazina) + Carbamazepina",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Fenotiazinas (Clorpromazina) + Tiramina (Alimentos, Etc.)",
+                "valor": 4,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Barbitúricos + Carbamazepina",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Barbitúricos + Tiramina (Alimentos, Etc.)",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Carbamazepina + Tiramina (Alimentos, Etc.)",
+                "valor": 4,
+                "descricao": "Interação grave"
+            }
+        ]
+    },
+    {
+        "utente": "6143 - Carlos Cardoso",
+        "medicamentos": [
+            "Ácido Mefenâmico",
+            "Clofibrato",
+            "Fenotiazinas (Clorpromazina)"
+        ],
+        "interacoes": [
+            {
+                "par": "Ácido Mefenâmico + Clofibrato",
+                "valor": 0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Ácido Mefenâmico + Fenotiazinas (Clorpromazina)",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Clofibrato + Fenotiazinas (Clorpromazina)",
+                "valor": 4,
+                "descricao": "Interação grave"
+            }
+        ]
+    },
+    {
+        "utente": "4962 - Teresa Almeida",
+        "medicamentos": [
+            "Ácido Ectacrínico",
+            "Tetraciclinas",
+            "Cefaloridina (Ceporan)",
+            "Isoniazida"
+        ],
+        "interacoes": [
+            {
+                "par": "Ácido Ectacrínico + Tetraciclinas",
+                "valor": 0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Ácido Ectacrínico + Cefaloridina (Ceporan)",
+                "valor": 0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Ácido Ectacrínico + Isoniazida",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Tetraciclinas + Cefaloridina (Ceporan)",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Tetraciclinas + Isoniazida",
+                "valor": 0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Cefaloridina (Ceporan) + Isoniazida",
+                "valor": 0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "9621 - Ana Nunes",
+        "medicamentos": [
+            "Anfetaminas",
+            "Álcool (bebida)"
+        ],
+        "interacoes": [
+            {
+                "par": "Anfetaminas + Álcool (bebida)",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            }
+        ]
+    },
+    {
+        "utente": "7421 - Margarida Marques",
+        "medicamentos": [
+            "Fenitoína",
+            "Digoxina",
+            "Hidrato de Cloral"
+        ],
+        "interacoes": [
+            {
+                "par": "Fenitoína + Digoxina",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Fenitoína + Hidrato de Cloral",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Digoxina + Hidrato de Cloral",
+                "valor": 0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "9624 - Mariana Pereira",
+        "medicamentos": [
+            "Esteróides Anabólicos",
+            "Isoniazida"
+        ],
+        "interacoes": [
+            {
+                "par": "Esteróides Anabólicos + Isoniazida",
+                "valor": 0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "8566 - Rita Oliveira",
+        "medicamentos": [
+            "Carbamazepina",
+            "Naproxeno"
+        ],
+        "interacoes": [
+            {
+                "par": "Carbamazepina + Naproxeno",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            }
+        ]
+    },
+    {
+        "utente": "5947 - Gonçalo Oliveira",
+        "medicamentos": [
+            "Antibióticos (Largo Espectro)",
+            "Antidepressivos Tricíclicos",
+            "Procainamida",
+            "Benzodiazepinas (Diazepam)"
+        ],
+        "interacoes": [
+            {
+                "par": "Antibióticos (Largo Espectro) + Antidepressivos Tricíclicos",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Antibióticos (Largo Espectro) + Procainamida",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Antibióticos (Largo Espectro) + Benzodiazepinas (Diazepam)",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Antidepressivos Tricíclicos + Procainamida",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Antidepressivos Tricíclicos + Benzodiazepinas (Diazepam)",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Procainamida + Benzodiazepinas (Diazepam)",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            }
+        ]
+    },
+    {
+        "utente": "1982 - Miguel Pereira",
+        "medicamentos": [
+            "Anti-histamínicos",
+            "Bloqueantes Neuromusculares"
+        ],
+        "interacoes": [
+            {
+                "par": "Anti-histamínicos + Bloqueantes Neuromusculares",
+                "valor": 0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "7140 - Bernardo Sousa",
+        "medicamentos": [
+            "Ácido Ectacrínico",
+            "Dicloralfenazona",
+            "Sulfimpirazona"
+        ],
+        "interacoes": [
+            {
+                "par": "Ácido Ectacrínico + Dicloralfenazona",
+                "valor": 0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Ácido Ectacrínico + Sulfimpirazona",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Dicloralfenazona + Sulfimpirazona",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            }
+        ]
+    },
+    {
+        "utente": "5159 - Teresa Rocha",
+        "medicamentos": [
+            "Tiazidas",
+            "Guanetidina",
+            "Meprobamato"
+        ],
+        "interacoes": [
+            {
+                "par": "Tiazidas + Guanetidina",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Tiazidas + Meprobamato",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Guanetidina + Meprobamato",
+                "valor": 4,
+                "descricao": "Interação grave"
+            }
+        ]
+    },
+    {
+        "utente": "7693 - Sofia Teixeira",
+        "medicamentos": [
+            "Ácido Acetilsalicílico",
+            "Contraceptivos Orais",
+            "Anticoagulantes Orais",
+            "Ácido Acetilsalicílico"
+        ],
+        "interacoes": [
+            {
+                "par": "Ácido Acetilsalicílico + Contraceptivos Orais",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Ácido Acetilsalicílico + Anticoagulantes Orais",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Ácido Acetilsalicílico + Ácido Acetilsalicílico",
+                "valor": null,
+                "descricao": "Sem dados"
+            },
+            {
+                "par": "Contraceptivos Orais + Anticoagulantes Orais",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Contraceptivos Orais + Ácido Acetilsalicílico",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Anticoagulantes Orais + Ácido Acetilsalicílico",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            }
+        ]
+    },
+    {
+        "utente": "2930 - João Martins",
+        "medicamentos": [
+            "Isoniazida",
+            "Anfetaminas",
+            "Bloqueadores adrenérgicos beta",
+            "Cefaloridina (Ceporan)"
+        ],
+        "interacoes": [
+            {
+                "par": "Isoniazida + Anfetaminas",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Isoniazida + Bloqueadores adrenérgicos beta",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Isoniazida + Cefaloridina (Ceporan)",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Anfetaminas + Bloqueadores adrenérgicos beta",
+                "valor": 0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Anfetaminas + Cefaloridina (Ceporan)",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Bloqueadores adrenérgicos beta + Cefaloridina (Ceporan)",
+                "valor": 0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "6274 - Inês Fernandes",
+        "medicamentos": [
+            "Tetraciclinas",
+            "Corticosteróides",
+            "Tetraciclinas",
+            "Cefaloridina (Ceporan)"
+        ],
+        "interacoes": [
+            {
+                "par": "Tetraciclinas + Corticosteróides",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Tetraciclinas + Tetraciclinas",
+                "valor": null,
+                "descricao": "Sem dados"
+            },
+            {
+                "par": "Tetraciclinas + Cefaloridina (Ceporan)",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            },
+            {
+                "par": "Corticosteróides + Tetraciclinas",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Corticosteróides + Cefaloridina (Ceporan)",
+                "valor": 4,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Tetraciclinas + Cefaloridina (Ceporan)",
+                "valor": 2,
+                "descricao": "Interação moderada"
+            }
+        ]
+    },
+    {
+        "utente": "8710 - António Alves",
+        "medicamentos": [
+            "Antibióticos (Largo Espectro)",
+            "Simpaticomiméticos (A. Indirecta)",
+            "Sulfimpirazona"
+        ],
+        "interacoes": [
+            {
+                "par": "Antibióticos (Largo Espectro) + Simpaticomiméticos (A. Indirecta)",
+                "valor": 0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Antibióticos (Largo Espectro) + Sulfimpirazona",
+                "valor": 4,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Simpaticomiméticos (A. Indirecta) + Sulfimpirazona",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            }
+        ]
+    },
+    {
+        "utente": "3408 - Leonor Pinto",
+        "medicamentos": [
+            "Procainamida",
+            "Carbamazepina",
+            "Metronidazol"
+        ],
+        "interacoes": [
+            {
+                "par": "Procainamida + Carbamazepina",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Procainamida + Metronidazol",
+                "valor": 4,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Carbamazepina + Metronidazol",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            }
+        ]
+    },
+    {
+        "utente": "5945 - António Costa",
+        "medicamentos": [
+            "Glutetimida",
+            "Fenilbutazona",
+            "Indometacina"
+        ],
+        "interacoes": [
+            {
+                "par": "Glutetimida + Fenilbutazona",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Glutetimida + Indometacina",
+                "valor": 1,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Fenilbutazona + Indometacina",
+                "valor": 4,
+                "descricao": "Interação grave"
+            }
+        ]
+    },
+    {
+        "utente": "8307 - Pedro Costa",
+        "medicamentos": [
+            "Hidrato de Cloral",
+            "Esteróides Anabólicos"
+        ],
+        "interacoes": [
+            {
+                "par": "Hidrato de Cloral + Esteróides Anabólicos",
+                "valor": 4,
+                "descricao": "Interação grave"
+            }
+        ]
+    },
+    {
+        "utente": "9494 - Matilde Moreira",
+        "medicamentos": [
+            "Clofibrato",
+            "Tiazidas",
+            "Clofibrato"
+        ],
+        "interacoes": [
+            {
+                "par": "Clofibrato + Tiazidas",
+                "valor": 5,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Clofibrato + Clofibrato",
+                "valor": null,
+                "descricao": "Sem dados"
+            },
+            {
+                "par": "Tiazidas + Clofibrato",
+                "valor": 3,
+                "descricao": "Interação significativa"
+            }
+        ]
+    }
+]
