@@ -1,0 +1,190 @@
+[
+    {
+        "utente": "6492 - João Ribeiro",
+        "medicamentos": [
+            "Hidrato de Cloral",
+            "Biguanidas (Fenformina)"
+        ],
+        "interacoes": [
+            {
+                "par": "Hidrato de Cloral + Biguanidas (Fenformina)",
+                "valor": 2.0,
+                "descricao": "Interação moderada"
+            }
+        ]
+    },
+    {
+        "utente": "8462 - Manuel Moreira",
+        "medicamentos": [
+            "Dicloralfenazona",
+            "Ácido Mefenâmico"
+        ],
+        "interacoes": [
+            {
+                "par": "Dicloralfenazona + Ácido Mefenâmico",
+                "valor": 1.0,
+                "descricao": "Interação mínima"
+            }
+        ]
+    },
+    {
+        "utente": "5350 - Leonor Moreira",
+        "medicamentos": [
+            "Insulinas",
+            "Carbamazepina",
+            "Procainamida",
+            "Sulfonamidas"
+        ],
+        "interacoes": [
+            {
+                "par": "Insulinas + Carbamazepina",
+                "valor": 0.0,
+                "descricao": "Sem interação"
+            },
+            {
+                "par": "Insulinas + Procainamida",
+                "valor": 3.0,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Insulinas + Sulfonamidas",
+                "valor": 1.0,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Carbamazepina + Procainamida",
+                "valor": 4.0,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Carbamazepina + Sulfonamidas",
+                "valor": 4.0,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Procainamida + Sulfonamidas",
+                "valor": 0.0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "5429 - André Gomes",
+        "medicamentos": [
+            "Fenotiazinas (Clorpromazina)",
+            "Ácido Mefenâmico",
+            "Metronidazol",
+            "Glutetimida"
+        ],
+        "interacoes": [
+            {
+                "par": "Fenotiazinas (Clorpromazina) + Ácido Mefenâmico",
+                "valor": 3.0,
+                "descricao": "Interação significativa"
+            },
+            {
+                "par": "Fenotiazinas (Clorpromazina) + Metronidazol",
+                "valor": 5.0,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Fenotiazinas (Clorpromazina) + Glutetimida",
+                "valor": 1.0,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Ácido Mefenâmico + Metronidazol",
+                "valor": 5.0,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Ácido Mefenâmico + Glutetimida",
+                "valor": 5.0,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Metronidazol + Glutetimida",
+                "valor": 1.0,
+                "descricao": "Interação mínima"
+            }
+        ]
+    },
+    {
+        "utente": "5060 - Leonor Vieira",
+        "medicamentos": [
+            "Metildopa",
+            "Tetraciclinas",
+            "Isoniazida"
+        ],
+        "interacoes": [
+            {
+                "par": "Metildopa + Tetraciclinas",
+                "valor": 1.0,
+                "descricao": "Interação mínima"
+            },
+            {
+                "par": "Metildopa + Isoniazida",
+                "valor": 5.0,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Tetraciclinas + Isoniazida",
+                "valor": 0.0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "6246 - Teresa Nunes",
+        "medicamentos": [
+            "Corticosteróides",
+            "Metronidazol"
+        ],
+        "interacoes": [
+            {
+                "par": "Corticosteróides + Metronidazol",
+                "valor": 4.0,
+                "descricao": "Interação grave"
+            }
+        ]
+    },
+    {
+        "utente": "7870 - Gonçalo Cardoso",
+        "medicamentos": [
+            "Naproxeno",
+            "Antiácidos"
+        ],
+        "interacoes": [
+            {
+                "par": "Naproxeno + Antiácidos",
+                "valor": 0.0,
+                "descricao": "Sem interação"
+            }
+        ]
+    },
+    {
+        "utente": "1706 - Mariana Teixeira",
+        "medicamentos": [
+            "Carbamazepina",
+            "Metotrexato",
+            "Indometacina"
+        ],
+        "interacoes": [
+            {
+                "par": "Carbamazepina + Metotrexato",
+                "valor": 4.0,
+                "descricao": "Interação grave"
+            },
+            {
+                "par": "Carbamazepina + Indometacina",
+                "valor": 5.0,
+                "descricao": "Interação muito grave"
+            },
+            {
+                "par": "Metotrexato + Indometacina",
+                "valor": 5.0,
+                "descricao": "Interação muito grave"
+            }
+        ]
+    }
+]
